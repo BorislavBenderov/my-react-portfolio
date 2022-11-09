@@ -23,6 +23,14 @@
     transform: rotate(0);
 }
 
+.about__content {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 10px;
+    background-color: var(--color-bg);
+}
+
+
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
