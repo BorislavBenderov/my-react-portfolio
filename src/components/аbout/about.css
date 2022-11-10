@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    background-color: var(--color-bg);
+    border-radius: 2rem;
 }
 
 .about__me {
@@ -24,10 +26,7 @@
 }
 
 .about__content {
-    border: 2px solid black;
-    border-radius: 1rem;
     padding: 10px;
-    background-color: var(--color-bg);
 }
 
 
