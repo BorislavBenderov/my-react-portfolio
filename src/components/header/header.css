@@ -1,12 +1,14 @@
 header {
     padding-top: 7rem;
     overflow: hidden;
+    background: var(--color-primary);
 }
 
 .header__container {
     text-align: center;
     height: 100%;
     position: relative;
+    
 }
 
 .me {
