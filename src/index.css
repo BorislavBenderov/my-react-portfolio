@@ -12,8 +12,8 @@
 
 :root {
     --color-bg: #1B262C;
-    --color-bg-variant: #0F4C75;
-    --color-primary: #3282B8;
+    --color-bg-variant: white;
+    --color-primary: rgba(2, 92, 9, 0.803);
     --color-primary-variant: #BBE1FA;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
@@ -33,20 +33,10 @@ html {
     display: none;
 }
 
-@keyframes color {
-    0%   { background: #33CCCC; }
-    20%  { background: #33CC36; }
-    40%  { background: #B8CC33; }
-    60%  { background: #FCCA00; }
-    80%  { background: #33CC36; }
-    100% { background: #33CCCC; }
-  }
-
 body {
     font-family: 'Poppins', sans-serif;
-    background: #33CCCC;
-    animation: color 9s infinite linear;
-    color: var(--color-white);
+    background: rgba(209, 243, 255, 0.91);
+    color: black;
     line-height: 1.7;
 }
 
@@ -73,13 +63,13 @@ section {
     margin-top: 4rem;
 }
 
-section>h2,
+section>h1,
 section>h5 {
     text-align: center;
-    color: var(--color-light);
+    color: black;
 }
 
-section>h2 {
+section>h1 {
     color: var(--color-primary);
     margin-bottom: 3rem;
 }
@@ -94,7 +84,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-white);
+    color: black;
 }
 
 .btn {
@@ -102,7 +92,7 @@ a:hover {
     display: inline-block;
     color: var(--color-primary);
     padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
+    border-radius: 4px;
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
@@ -144,7 +134,7 @@ img {
         width: var(--container-width-sm);
     }
 
-    section>h2 {
+    section>h1 {
         margin-bottom: 2rem;
     }
 }

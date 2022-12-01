@@ -4,11 +4,11 @@ export const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h1>Portfolio</h1>
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/28183850/home_post_2.gif' alt="" />
+            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -18,7 +18,7 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/28183850/home_post_2.gif' alt="" />
+            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -28,7 +28,7 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/28183850/home_post_2.gif' alt="" />
+            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -38,7 +38,7 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/28183850/home_post_2.gif' alt="" />
+            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -48,7 +48,7 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/28183850/home_post_2.gif' alt="" />
+            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -58,7 +58,7 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/28183850/home_post_2.gif' alt="" />
+            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">

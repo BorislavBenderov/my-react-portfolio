@@ -1,39 +1,34 @@
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%;
-    background-color: var(--color-bg);
+    gap: 10%;
     border-radius: 2rem;
 }
 
 .about__me {
     width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
 }
 
 .about__me-image {
-    border-radius: 2rem;
+    border-radius: 50%;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+    width: 100%;
+    height: 100%;
 }
+
+.about__me-image img {
+    width: 100%;
+    height: 100%;
+}
+
 .about__me-image:hover {
     transform: rotate(0);
 }
 
 .about__content {
     padding: 10px;
-}
-
-
-.about__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
 }
 
 .about__card {
@@ -66,7 +61,7 @@
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: black;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

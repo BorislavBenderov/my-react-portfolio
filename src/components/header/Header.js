@@ -1,13 +1,21 @@
+import React from 'react';
 import './header.css';
+import { AiOutlineUser } from 'react-icons/ai';
+import { BiBook } from 'react-icons/bi';
+import { GrProjects } from 'react-icons/gr';
+import { BiMessageSquareDetail } from 'react-icons/bi';
+import { useState } from 'react';
 
 export const Header = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
-    <header>
-      <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Borislav Benderov</h1>
-        <h5 className="text-light">JavaScript Developer</h5>
-      </div>
-    </header>
+    <div className='header'>
+    <nav>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><GrProjects /></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook /></a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
+    </nav>
+    </div>
   );
 }
