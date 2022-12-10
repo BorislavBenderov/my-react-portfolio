@@ -1,4 +1,11 @@
 import './portfolio.css';
+import BLOG from '../../assets/blog.png';
+import CHAT from '../../assets/chat.png';
+import FITNESS from '../../assets/fitness-min.png';
+import LAPTOP from '../../assets/laptop.png';
+import MOVIE from '../../assets/movie.png';
+import SOCIALMEDIA from '../../assets/social-media.png';
+import TODOS from '../../assets/todos-min.png';
 
 export const Portfolio = () => {
   return (
@@ -8,7 +15,7 @@ export const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
+            <img src={BLOG} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -18,7 +25,7 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
+            <img src={CHAT} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -28,7 +35,7 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
+            <img src={FITNESS} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -38,7 +45,7 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
+            <img src={LAPTOP} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -48,7 +55,7 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
+            <img src={MOVIE} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -58,7 +65,17 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src='https://cdn.dribbble.com/users/1192538/screenshots/16507884/media/27aa37c97cf336391a72dc8bf24b140e.png?compress=1&resize=400x300' alt="" />
+            <img src={SOCIALMEDIA} alt="" />
+          </div>
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className='btn'>Github</a>
+            <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={TODOS} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
