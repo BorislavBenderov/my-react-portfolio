@@ -15,9 +15,9 @@ export const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={BLOG} alt="" />
+            <img src={SOCIALMEDIA} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Social Media Application</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
@@ -27,7 +27,7 @@ export const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={CHAT} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Chat Application</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
@@ -37,7 +37,7 @@ export const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={FITNESS} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Fitness Application</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
@@ -47,7 +47,7 @@ export const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={LAPTOP} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>E-commerce Application</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
@@ -57,7 +57,7 @@ export const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={MOVIE} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Movie Catalog Application</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
@@ -65,9 +65,9 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={SOCIALMEDIA} alt="" />
+            <img src={BLOG} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Blog Application</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
@@ -77,7 +77,7 @@ export const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={TODOS} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>ToDo List Application</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
