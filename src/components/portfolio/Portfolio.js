@@ -19,7 +19,7 @@ export const Portfolio = () => {
           </div>
           <h3>Social Media Application</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn'>Github</a>
+            <a href="https://github.com/BorislavBenderov/social-media-react-app" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
@@ -29,7 +29,7 @@ export const Portfolio = () => {
           </div>
           <h3>Chat Application</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn'>Github</a>
+            <a href="https://github.com/BorislavBenderov/messenger-chat-app" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
@@ -39,7 +39,7 @@ export const Portfolio = () => {
           </div>
           <h3>Fitness Application</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn'>Github</a>
+            <a href="https://github.com/BorislavBenderov/fitness-app" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
@@ -49,7 +49,7 @@ export const Portfolio = () => {
           </div>
           <h3>E-commerce Application</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn'>Github</a>
+            <a href="https://github.com/BorislavBenderov/ecommerce-laptop-app" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
@@ -59,7 +59,7 @@ export const Portfolio = () => {
           </div>
           <h3>Movie Catalog Application</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn'>Github</a>
+            <a href="https://github.com/BorislavBenderov/movie-catalogue-app" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
@@ -69,7 +69,7 @@ export const Portfolio = () => {
           </div>
           <h3>Blog Application</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn'>Github</a>
+            <a href="https://github.com/BorislavBenderov/blog-app" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
@@ -79,7 +79,7 @@ export const Portfolio = () => {
           </div>
           <h3>ToDo List Application</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn'>Github</a>
+            <a href="https://github.com/BorislavBenderov/todo-list-app" className='btn'>Github</a>
             <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
