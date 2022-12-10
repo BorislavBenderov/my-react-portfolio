@@ -19,7 +19,7 @@
 .experience__container > div h3 {
     text-align: center;
     margin: 2rem;
-    color: var(--color-white);
+    color: black;
 }
 
 .experience__content {
