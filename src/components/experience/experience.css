@@ -1,8 +1,6 @@
 .experience__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 10rem;
-    background-color: var(--color-bg);
     border-radius: 2rem;
 }
 
