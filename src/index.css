@@ -13,7 +13,7 @@
 :root {
     --color-bg: #1B262C;
     --color-bg-variant: white;
-    --color-primary: rgba(2, 92, 9, 0.803);
+    --color-primary: rgba(0, 133, 235, 0.803);
     --color-primary-variant: #BBE1FA;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
@@ -35,7 +35,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: rgba(209, 243, 255, 0.91);
+    background: rgba(174, 233, 255, 0.864);
     color: black;
     line-height: 1.7;
 }
