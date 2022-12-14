@@ -16,7 +16,9 @@ export const About = () => {
                         <h1>Borislav Benderov</h1>
                     </div>
                     <p>
-                        I'm a passionate JavaScript developer who loves to design and implement beautiful and responsive web applications. I live in Rudozem, Smolyan, Bulgaria.
+                        I'm a passionate JavaScript developer who loves to design and implement beautiful and responsive web applications.
+                        Experienced in React JS and its main fundamentals like JSX, hooks, Virtual DOM, component lifecycle and Context
+                        API.
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
