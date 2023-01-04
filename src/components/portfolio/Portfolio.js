@@ -6,6 +6,7 @@ import LAPTOP from '../../assets/laptop.png';
 import MOVIE from '../../assets/movie.png';
 import SOCIALMEDIA from '../../assets/social-media.png';
 import TODOS from '../../assets/todos-min.png';
+import BOOKS from '../../assets/dashboard-min.png';
 
 export const Portfolio = () => {
   return (
@@ -71,6 +72,16 @@ export const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/BorislavBenderov/blog-app" target="_blank" rel="noopener noreferrer" className='btn'>Github</a>
             <a href="https://borislavbenderov.github.io/blog-app" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Live Demo</a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={BOOKS} alt="" />
+          </div>
+          <h3>MERN Book Application</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/BorislavBenderov/mern-book-app" target="_blank" rel="noopener noreferrer" className='btn'>Github</a>
+            <a href="https://mern-book-app-uq21.onrender.com" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
         <article className="portfolio__item">
