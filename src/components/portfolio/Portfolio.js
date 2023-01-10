@@ -7,6 +7,7 @@ import MOVIE from '../../assets/movie.png';
 import SOCIALMEDIA from '../../assets/social-media.png';
 import TODOS from '../../assets/todos-min.png';
 import BOOKS from '../../assets/dashboard-min.png';
+import BLOGTS from '../../assets/blog-ts.png';
 
 export const Portfolio = () => {
   return (
@@ -32,6 +33,16 @@ export const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/BorislavBenderov/messenger-chat-app" target="_blank" rel="noopener noreferrer" className='btn'>Github</a>
             <a href="https://borislavbenderov.github.io/messenger-chat-app" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Live Demo</a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={BLOGTS} alt="" />
+          </div>
+          <h3>Blog Application with Typescript</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/BorislavBenderov/blog-ts-app" target="_blank" rel="noopener noreferrer" className='btn'>Github</a>
+            <a href="https://borislavbenderov.github.io/blog-ts-app" target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
         <article className="portfolio__item">
